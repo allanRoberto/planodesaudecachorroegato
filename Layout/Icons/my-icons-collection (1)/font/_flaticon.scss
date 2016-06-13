@@ -1,0 +1,69 @@
+    /*
+    Flaticon icon font: Flaticon
+    Creation date: 16/05/2016 18:49
+    */
+
+    @font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+    .fi:before{
+        display: inline-block;
+  font-family: "Flaticon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+    }
+
+    .flaticon-animal:before { content: "\f100"; }
+.flaticon-circle:before { content: "\f101"; }
+.flaticon-dog:before { content: "\f102"; }
+.flaticon-dog-1:before { content: "\f103"; }
+.flaticon-dog-2:before { content: "\f104"; }
+.flaticon-dog-3:before { content: "\f105"; }
+.flaticon-dog-4:before { content: "\f106"; }
+.flaticon-dog-bone:before { content: "\f107"; }
+.flaticon-food:before { content: "\f108"; }
+.flaticon-food-1:before { content: "\f109"; }
+.flaticon-healthy:before { content: "\f10a"; }
+.flaticon-home-page:before { content: "\f10b"; }
+.flaticon-tag:before { content: "\f10c"; }
+.flaticon-technology:before { content: "\f10d"; }
+.flaticon-telephone:before { content: "\f10e"; }
+    
+    $font-Flaticon-animal: "\f100";
+    $font-Flaticon-circle: "\f101";
+    $font-Flaticon-dog: "\f102";
+    $font-Flaticon-dog-1: "\f103";
+    $font-Flaticon-dog-2: "\f104";
+    $font-Flaticon-dog-3: "\f105";
+    $font-Flaticon-dog-4: "\f106";
+    $font-Flaticon-dog-bone: "\f107";
+    $font-Flaticon-food: "\f108";
+    $font-Flaticon-food-1: "\f109";
+    $font-Flaticon-healthy: "\f10a";
+    $font-Flaticon-home-page: "\f10b";
+    $font-Flaticon-tag: "\f10c";
+    $font-Flaticon-technology: "\f10d";
+    $font-Flaticon-telephone: "\f10e";
